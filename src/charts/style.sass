@@ -1,0 +1,28 @@
+$black: #000000;
+=FlexDirJusAlign($Dir, $Jus, $Align)
+  display: flex;
+  flex-direction: $Dir;
+  align-items: $Align;
+  
+  
+p
+  color: $black;
+  
+h1
+  color: $black;
+
+  // chart related styling below
+.chartsCont
+  +FlexDirJusAlign(column, initial, center);
+  width: 100%;
+  .card
+    width: 500px;
+    opacity: .92;
+    margin: 20px;
+
+    .prosConsCont
+      +FlexDirJusAlign(row, space-between, flex-start);
+      color: $black;
+      font-size: .9rem;
+
+

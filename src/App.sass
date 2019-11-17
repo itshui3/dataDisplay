@@ -1,0 +1,45 @@
+$center: center;
+$opacity: .9;
+$headerHeight: 40vmin;
+$appHeaderMinHeight: 40vh;
+$displayFlex: flex;
+$columnDirectionFlex: column;
+$white: #FFFFFF;
+
+=parallax($url)
+  background-attachment: fixed;
+  background-position: $center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: url($url);
+
+
+
+
+
+  height: 1000px;
+  
+.headerAlert
+  text-align: $center;
+  opacity: $opacity;
+  
+.App 
+  text-align: $center;
+
+
+.App-logo 
+  height: $headerHeight;
+
+
+.App-header 
+
+  min-height: $appHeaderMinHeight;
+  display: $displayFlex;
+  flex-direction: $columnDirectionFlex;
+  align-items: $center;
+  justify-content: $center;
+  color: $white;
+
+.panpan
+  +parallax("./img/spacePanda.jpg");

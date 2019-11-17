@@ -3,9 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.9.3",
+    "heatmap-calendar-react": "^1.0.1",
+    "node-sass": "^4.13.0",
     "react": "^16.12.0",
+    "react-calendar-heatmap": "^1.8.1",
+    "react-calendar-heatmap-temp-fix": "^1.8.2",
+    "react-chartjs-2": "^2.8.0",
+    "react-charts-d3": "^2.4.1",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-github-contribution-calendar": "^2.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "reactstrap": "^8.1.1",
+    "reaviz": "^7.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
